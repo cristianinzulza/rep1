@@ -1,0 +1,53 @@
+
+/*
+1. son nombres de etiquetas
+2. afectan a todas las etiquetas con ese nombre
+*/
+body { background: darkgray; }
+
+label {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    }
+
+p {
+    font-size: 30px;
+    color:rgb(236, 246, 91);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+div {
+    background-image: url("serena.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+  }
+/* Aplicando estilo por medio de un id */
+/*
+1. Es único, solo afecta a un elemento de la página
+2. Solo se puede utilizar un estilo por elemento web
+*/
+#nombre { border-width: 5px;
+    border-color:blue;
+}
+
+#apellido{
+    border-width: 2px;
+    border-color: chartreuse;
+    border-radius: 15px;
+}
+/* Aplicando estilo por medio de un class */
+/*
+1. Se puede utilizar en cualquier objeto html
+2. Se puede usar en más de una ocasión
+3. Se puede agregar más de un estilo con el class
+*/
+.miBoton{
+    background: #0f88dc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(223, 236, 35);
+    width: 100px;
+}

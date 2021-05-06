@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Mi primera tabla</h1>
+    <br>
+    <hr>
+    <!--Definiendo un tabla-->
+    <table border="1" bgcolor="skyblue">
+        <thead>
+            <tr bgcolor="#EEEA4C">
+                <!-- Definiendo las filas con <tr> -->
+                <th>Código</th>
+                <th>Lugar de vacaciones</th>
+                <th>Fotografía</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody bgcolor="#F7F488">
+            <tr>
+                <td>1</td>
+                <td>La Serena</td>
+                <td><img src="serena.jpg" width="300px" height="200px" alt="vacaciones"></td>
+                <td><a href="https://www.google.com" target="_blank">Ir a Google</a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>La Serena</td>
+                <td><img src="La serena.jpg" width="300px" height="200px"></td>
+                <td><a href="https://www.google.com" target="_blank">Ir a Google</a></td>
+            </tr>
+        </tbody>
+
+
+        <h2>Elementos del formulario</h2>
+        <label for="nombre">Nombre:</label> <!-- Agregando texto en HTML-->
+        <input type="text" id="nombre">
+        <br> <br>
+        <label for="apellido">Apellido:</label> <!-- Agregando texto en HTML-->
+        <input type="text" id="apellido">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br><br>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="pass">
+        <br><br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <br><br>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <br><br>
+        <label for="prefiero-no-decir">Prefiero no decir</label>
+        <input type="radio" id="prefiero-no-decir" name="genero" value="prefiero-no-decir">
+        <br><br>
+        <label for="genero">Género</label>
+        <select name="genero">
+            <option value="seleccione">Seleccione</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">femenino</option>
+            <option value="otro">Prefiere no decir</option>
+        </select>
+        <br><br>
+        <label for="azul">Azul</label>
+        <input type="checkbox" id="azul" name="color" value="azul">
+        <br> <br>
+        <label for="verde">Verde</label>
+        <input type="checkbox" id="verde" name="color" value="verde">
+        <br><br>
+        <textarea name="description"></textarea>
+        <br>
+        <input type="hidden" name="id" value="7">
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <input type="datetime" value="fecha">
+        <br>
+        <input type="number">
+        <br>
+        <input type="date">
+        <br><br><br> <br><br><br> <br><br><br>
+</body>
+
+</html>

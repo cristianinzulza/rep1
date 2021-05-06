@@ -1,0 +1,31 @@
+
+/*  shift + alt + a */
+
+body {
+    background-color: rgb(246, 246, 149);
+    color:black;
+}
+
+h1 {
+    background-color: chocolate;
+    color: rgb(134, 134, 255);
+    text-decoration: underline;
+    text-transform: uppercase; /* Transforma a letras mayusculas */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p1{
+    text-align: right;
+    text-decoration: line-through;
+    text-transform: lowercase; /* Transforma a letras minúsculas */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#p2{
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize; /* Deja la primera letra en mayúscula y lo demas en minúscula */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}

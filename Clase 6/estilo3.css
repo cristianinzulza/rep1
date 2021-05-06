@@ -1,0 +1,23 @@
+
+.texto {
+    padding: 20px;
+    text-align: center;
+}
+
+.imagen {
+    margin: 5px;
+    border: 2px solid rgb(112, 182, 247);
+    width: 300px;
+    float: left;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.imagen:hover {
+    border: 2px solid red;
+
+    
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function a(x){
+        z = [];
+        z.push(x);
+        z.pop();
+        z.push(x);
+        z.push(x);
+        return z;
+        }
+        y = a(2);
+        y.push(5);
+        console.log(y);
+    </script>
+
+    <script>
+        function returnOddArray(){
+        // your code here
+            arreglo = []
+            for(var i=1; i<=255; i=i+2){
+                arreglo.push(i);
+            }
+            return arreglo;
+
+        }
+        y = returnOddArray();
+        console.log(y); 
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+1, 2, 3, 4, 5      y=3
